@@ -1,0 +1,7 @@
+# Project exclude paths
+/Annotation/target/
+/chat_system/target/
+/collection/target/
+/io/target/
+/nioModule/target/
+/out/

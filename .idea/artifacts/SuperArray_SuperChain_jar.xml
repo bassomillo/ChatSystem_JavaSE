@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SuperArray&amp;SuperChain:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SuperArray_SuperChain_jar</output-path>
+    <root id="archive" name="SuperArray&amp;SuperChain.jar">
+      <element id="module-output" name="SuperArray&amp;SuperChain" />
+    </root>
+  </artifact>
+</component>

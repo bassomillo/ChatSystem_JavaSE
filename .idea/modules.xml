@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Annotation/Annotation.iml" filepath="$PROJECT_DIR$/Annotation/Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection/JUnit5Examples.iml" filepath="$PROJECT_DIR$/collection/JUnit5Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringTest/StringTest.iml" filepath="$PROJECT_DIR$/StringTest/StringTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuperArray&amp;SuperChain/SuperArray&amp;SuperChain.iml" filepath="$PROJECT_DIR$/SuperArray&amp;SuperChain/SuperArray&amp;SuperChain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat_system/chat_system.iml" filepath="$PROJECT_DIR$/chat_system/chat_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dateAnd Calendar/dateAnd Calendar.iml" filepath="$PROJECT_DIR$/dateAnd Calendar/dateAnd Calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enum/enum.iml" filepath="$PROJECT_DIR$/enum/enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/errorAndExeption/errorAndExeption.iml" filepath="$PROJECT_DIR$/errorAndExeption/errorAndExeption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/functionalProgramming.iml" filepath="$PROJECT_DIR$/functionalProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inheritence/inheritence.iml" filepath="$PROJECT_DIR$/inheritence/inheritence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nioModule/nioModule.iml" filepath="$PROJECT_DIR$/nioModule/nioModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket_program.iml" filepath="$PROJECT_DIR$/socket_program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stackAndQueue/stackAndQueue.iml" filepath="$PROJECT_DIR$/stackAndQueue/stackAndQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree/tree.iml" filepath="$PROJECT_DIR$/tree/tree.iml" />
+    </modules>
+  </component>
+</project>

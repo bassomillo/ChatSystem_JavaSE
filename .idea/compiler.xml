@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JUnit5Examples" />
+        <module name="io" />
+        <module name="Annotation" />
+        <module name="chat_system" />
+        <module name="nioModule" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Annotation" target="1.8" />
+      <module name="chat_system" target="1.8" />
+      <module name="collection" target="1.8" />
+      <module name="io" target="1.8" />
+      <module name="JUnit5Examples" target="1.8" />
+      <module name="nioModule" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

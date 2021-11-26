@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="junit-4.12">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/junit-4.12.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/hamcrest-core-2.1-rc4-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/Array/src" />
+      <root url="file://$PROJECT_DIR$/StringTest/src" />
+      <root url="file://$PROJECT_DIR$/SuperArray&amp;SuperChain/src" />
+      <root url="file://$PROJECT_DIR$/chat_system/src" />
+      <root url="file://$PROJECT_DIR$/collection/src" />
+      <root url="file://$PROJECT_DIR$/dateAnd Calendar/src" />
+      <root url="file://$PROJECT_DIR$/enum/src" />
+      <root url="file://$PROJECT_DIR$/errorAndExeption/src" />
+      <root url="file://$PROJECT_DIR$/generics/src" />
+      <root url="file://$PROJECT_DIR$/inheritence/src" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$/stackAndQueue/src" />
+      <root url="file://$PROJECT_DIR$/thread/src" />
+      <root url="file://$PROJECT_DIR$/tree/src" />
+    </SOURCES>
+  </library>
+</component>
