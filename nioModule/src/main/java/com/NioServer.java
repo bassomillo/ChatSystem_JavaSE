@@ -21,7 +21,7 @@ public class NioServer {
 
         Selector selector = Selector.open();
         server.register(selector, SelectionKey.OP_ACCEPT);
-        while (true){
+        while (true) {
             //blocking method
             //to figure out which channel has things
             //0: no channel
@@ -30,23 +30,26 @@ public class NioServer {
             selector.select(1000);
             Set<SelectionKey> selectionKeys = selector.selectedKeys();
             Iterator<SelectionKey> iterator = selectionKeys.iterator();
-            while (iterator.hasNext()){
+
+            while (iterator.hasNext()) {
                 SelectionKey selectionKey = iterator.next();
                 iterator.remove();
-                if(selectionKey.isAcceptable()){
+                if (selectionKey.isAcceptable()) {
                     SocketChannel accept = server.accept();
                     accept.configureBlocking(false);
-                    accept.register(selector,SelectionKey.OP_READ, ByteBuffer.allocate(1024));
+                    accept.register(selector, SelectionKey.OP_READ, ByteBuffer.allocate(1024));
                 }
-                if(selectionKey.isReadable()){
+                if (selectionKey.isReadable()) {
                     SocketChannel channel = (SocketChannel) selectionKey.channel();
                     ByteBuffer attachment = (ByteBuffer) selectionKey.attachment();
                     attachment.clear();
                     channel.read(attachment);
-                    System.out.println(new String(attachment.array(),0,attachment.position()));
+                    System.out.println(new String(attachment.array(), 0, attachment.position()));
                 }
             }
+
         }
-    }
+
+}
 
 }
